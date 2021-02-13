@@ -1,5 +1,7 @@
 @media(max-width:375px){
     body{
+        font-size: 13px;
+        font-family: 'Manrope', sans-serif;
        padding: 20px;
         background-color:hsl(210, 46%, 95%);
     }
@@ -53,10 +55,20 @@
     position: relative;
 }
 }
-
+h3{
+    font-weight: 700;
+}
+.have{
+    color:  hsl(212, 23%, 69%);
+}
+.nd{
+    font-weight: 500;
+}
 @media(max-width:1440px){
   body{
     background-color: hsl(210, 46%, 95%);
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
   }
     #first{
     display: flex;
