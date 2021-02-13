@@ -1,0 +1,124 @@
+@media(max-width:375px){
+    body{
+       padding: 20px;
+        background-color:hsl(210, 46%, 95%);
+    }
+    #first{
+        background-color:white;
+        height:600px;
+       
+    }
+    
+    button{
+         float:right;
+         position:relative;
+         bottom:50px;
+    }
+    #tn{
+        display:none;
+    }
+    .ion{
+    float:right;
+    margin:10px;
+     }
+   #sec{
+    width:50%;
+    height:50%;
+  
+} 
+ .share{
+     display:none;
+ }
+ 
+.profile{
+    width:50px;
+    height:50px;
+    position:absolute;
+    border-radius: 50%;
+}
+.md{
+    position:relative;
+    margin-left:50px;
+    border-radius: 50%;
+}
+
+#tri{
+    
+    flex-direction:none;
+    display:block;
+    background-color: white;
+}
+.icon{
+    display: none;
+    position: relative;
+}
+}
+
+@media(max-width:1440px){
+  body{
+    background-color: hsl(210, 46%, 95%);
+  }
+    #first{
+    display: flex;
+   
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+   }
+    #sec{
+        flex: 1;
+    }
+    #sec img{
+        display: block;
+        width:400px;
+        height: 350px;
+        
+    }
+    #tri{
+        display: flex;
+        flex-direction: column;
+        padding:50px;
+        height: 250px;
+        width: 400px;
+       
+    }
+    .share{
+        margin-left: 75%;
+         bottom: 25%;
+         position: relative;
+    }
+    
+.profile{
+    width:50px;
+    height:50px;
+    position:absolute;
+    border-radius: 50%;
+}
+.md{
+    position:relative;
+    margin-left:50px;
+    border-radius: 50%;
+}
+button{
+     margin-left: 95%;
+      width: 40px;
+      float: right;
+      position: relative;
+      bottom: 18%;
+      height:40px;
+      border-radius: 50%;
+      text-decoration: none;
+      cursor: pointer;
+}
+#tri{
+    
+    background-color: white;
+}
+.icon{
+    display: none;
+    position: relative;
+}
+}
